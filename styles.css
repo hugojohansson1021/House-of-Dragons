@@ -305,8 +305,8 @@
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b225c8 0%, #772bb9 100%);
     padding: 20px 60px;
+    border: none;
     border-radius: 4px;
-    color: #fff;
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
@@ -320,4 +320,91 @@
     z-index: 2;
     color: #fff;
     text-decoration: none;
+}
+
+.main_btn:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #df19ed;
+    transition: all 0.35;
+    border-radius: 4px;
+}
+
+.main_btn:hover{
+    color: #fff;
+
+}
+
+.main_btn:hover::after{
+    width: 100%;
+}
+
+.main_img_container {
+    text-align: center;
+}
+
+.main_img_card{
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+/* Mobil responsiv Dragon section*/
+@media  screen and (max-width: 1100px) {
+    .main_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .main_img_container {
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .main_img_card {
+        height: 425px;
+        width: 425px;
+    }
+
+    .main_content{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main_content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+
+    }
+
+    .main_content h2 {
+        font-size: 3rem;
+    }
+
+    .main_content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+
+
+
+
 }

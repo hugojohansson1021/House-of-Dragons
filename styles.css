@@ -242,6 +242,9 @@
     }
 }
 
+
+
+
 /* dragon section*/
 
 .main{
@@ -303,6 +306,7 @@
 .main_btn {
     font-size: 1.8rem;
     background-color: #ff8177;
+    background-image: -webkit-linear-gradient(to top, #b225c8 0%, #772bb9 100%);
     background-image: linear-gradient(to top, #b225c8 0%, #772bb9 100%);
     padding: 20px 60px;
     border: none;
@@ -496,7 +500,7 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
 
 .cast_card:nth-child(4){
     background: #093028;  /* fallback for old browsers */
-background: -webkit-linear-gradient(
+background: linear-gradient(
     to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -517,8 +521,8 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
     margin-top: 16px;
 }
 
-.cast_card Button {
-    color: white;
+.cast_card button {
+    color: #fff;
     padding: 14px 24px;
     border: none;
     outline: none;

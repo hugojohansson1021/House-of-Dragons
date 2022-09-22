@@ -1,6 +1,6 @@
 
 
-
+//testing som alert funktions 
 
 function checker(){
     var result = confirm('This will take you to HBOs Website wether you want or not');
@@ -10,9 +10,7 @@ function checker(){
 }
 
 
-///const hero_btn = document.querySelector('.main_btn');
-//hero_btn.addEventListener('click', 
-    //onclick= "alert ('are you sure?')")
+
 
 
 //deklarera variabler
@@ -23,7 +21,7 @@ const navlogo = document.querySelector('.navbar_logo');
 
 
 
-// display mobile menu and close
+// display mobile menu and close Hamburger menu 
 
 const mobileMenu = () => {
     menu.classList.toggle('is-active');
@@ -31,6 +29,11 @@ const mobileMenu = () => {
 };
 
 menu.addEventListener('click', mobileMenu);
+
+
+
+
+// adding highlights under nav items 
 
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
@@ -61,7 +64,6 @@ const highlightMenu = () => {
     if((elem && window.innerWidth < 960 && scrollPos < 600) || elem) {
         elem.classList.remove('highlight');
     }
-
 };
 
 window.addEventListener('scroll', highlightMenu);
@@ -74,7 +76,9 @@ window.addEventListener('click', highlightMenu);
 
 // Random House generator 
 
-const hex =["Targaryen of King's Landing", "Arryn of the Eyrie", "Baratheon of Storm's End", "Stark of Winterfell", "Tully of Riverrun", "House Tyrell of Highgarden", "House Lannister of Casterly Rock", "Greyjoy of Pyke", "Martell of Sunspear"];
+const hex =["Targaryen of King's Landing", "Arryn of the Eyrie", "Baratheon of Storm's End", "Stark of Winterfell", "Tully of Riverrun", "Tyrell of Highgarden", "Lannister of Casterly Rock", "Greyjoy of Pyke", "Martell of Sunspear",
+"Blackwood of Raventree Hall", "Clegane of Clegane's Keep", "Hightower of Oldtown", "Karstark of Karhold", "Mallister of Seagard"
+, "Mormont of Bear Island", "Royce of Runestone", "Velaryon of Driftmark"];
 
 const btn = document.getElementById("houses_btn");
 const houses = document.querySelector(".houses");

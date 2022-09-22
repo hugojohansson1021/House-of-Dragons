@@ -200,10 +200,12 @@
 /*hero section*/
 
 .hero{
-    background: #000; /*picture*/
-    background: linear-gradient(to right, #161616, #000);
-    padding: 200px 0;
+    background-image: url("../Pictures/best.jpeg" );
+    /*background: linear-gradient(to right, #161616, #000);*/
+    padding: 100px;
 }
+
+
 .hero_container{
     display: flex;
     flex-direction: column;
@@ -349,18 +351,20 @@
 
 .main_img_container {
     text-align: center;
+
 }
 
 .main_img_card{
     margin: 10px;
-    height: 500px;
-    width: 500px;
-    border-radius: 4px;
+    height: 420px;
+    width: 600px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: url("../Pictures/All HOTD dragons.png");
+    /*background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);*/
 }
 
 
@@ -473,36 +477,29 @@
     color: #fff;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
     transition: 0.3s ease-in;
+    object-fit: cover;
 }
 
 /* pictures of 4 cast memmber*/
 
 .cast_card:nth-child(2){
-    background: #093028;  /* fallback for old browsers */
-background: -webkit-linear-gradient(
-    to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../Pictures/Alicent Hightower.png");
+    background-size: contain;
 }
 
 .cast_card:nth-child(1){
-    background: #093028;  /* fallback for old browsers */
-background: -webkit-linear-gradient(
-    to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../Pictures/Viserys Targaryen.png");
+    background-size: contain;
 }
 
 .cast_card:nth-child(3){
-    background: #093028;  /* fallback for old browsers */
-background: -webkit-linear-gradient(
-    to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../Pictures/Rhaenyra Targaryen.png");
+    background-size: contain;
 }
 
 .cast_card:nth-child(4){
-    background: #093028;  /* fallback for old browsers */
-background: linear-gradient(
-    to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../Pictures/Damon Targaryen.png");
+    background-size: contain;
 }
 
 .cast_card h2{

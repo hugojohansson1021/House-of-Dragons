@@ -47,3 +47,27 @@ const highlightMenu = () => {
 
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
+
+
+
+
+
+////const hex =[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+
+const hex =["Targaryen of King's Landing", "Arryn of the Eyrie", "Baratheon of Storm's End", "Stark of Winterfell", "Tully of Riverrun", "House Tyrell of Highgarden", "House Lannister of Casterly Rock", "Greyjoy of Pyke", "Martell of Sunspear"];
+
+const btn = document.getElementById("color_btn");
+const color = document.querySelector(".color");
+
+btn.addEventListener('click', function(){
+    let hexColor = '#';
+    for(let i = 0;i<1;i++){
+        hexColor += hex[getRandomNumber()];
+    } 
+    color.textContent = hexColor;
+    document.body.style.backgroundColor = hexColor;
+})
+
+function getRandomNumber(){
+    return Math.floor(Math.random() * hex.length);
+}

@@ -15,6 +15,8 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu);
 
+
+
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
     const dragonsmenu = document.querySelector('#dragons-page');
@@ -52,20 +54,21 @@ window.addEventListener('click', highlightMenu);
 
 
 
-////const hex =[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+
+// Random House generator 
 
 const hex =["Targaryen of King's Landing", "Arryn of the Eyrie", "Baratheon of Storm's End", "Stark of Winterfell", "Tully of Riverrun", "House Tyrell of Highgarden", "House Lannister of Casterly Rock", "Greyjoy of Pyke", "Martell of Sunspear"];
 
-const btn = document.getElementById("color_btn");
-const color = document.querySelector(".color");
+const btn = document.getElementById("houses_btn");
+const houses = document.querySelector(".houses");
 
 btn.addEventListener('click', function(){
-    let hexColor = '#';
+    let hexhouses = '';
     for(let i = 0;i<1;i++){
-        hexColor += hex[getRandomNumber()];
+        hexhouses += hex[getRandomNumber()];
     } 
-    color.textContent = hexColor;
-    document.body.style.backgroundColor = hexColor;
+    houses.textContent = hexhouses;
+    
 })
 
 function getRandomNumber(){

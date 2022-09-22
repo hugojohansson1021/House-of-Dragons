@@ -1,8 +1,25 @@
 
 
+
+
+function checker(){
+    var result = confirm('This will take you to HBOs Website wether you want or not');
+    if (result == fales){
+        Event.preventDefault();
+    }
+}
+
+
+///const hero_btn = document.querySelector('.main_btn');
+//hero_btn.addEventListener('click', 
+    //onclick= "alert ('are you sure?')")
+
+
+//deklarera variabler
+
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
-const navlogo = document.querySelector('.navbar_logo')
+const navlogo = document.querySelector('.navbar_logo');
 
 
 
@@ -15,14 +32,14 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu);
 
-
-
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
     const dragonsmenu = document.querySelector('#dragons-page');
     const castmenu = document.querySelector('#cast-page');
     const housesmenu = document.querySelector('#houses-page');
     let scrollPos = window.scrollY;
+
+
 
     // adds higlight class to menu items
 

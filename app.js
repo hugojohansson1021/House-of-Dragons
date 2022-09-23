@@ -14,17 +14,18 @@ function checker(){
 
 
 //deklarera variabler
+//navbar 
+const menu = document.querySelector('#mobile-menu');//target hambugar
 
-const menu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelector('.navbar_menu');
+const menuLinks = document.querySelector('.navbar_menu');// target ul class
 const navlogo = document.querySelector('.navbar_logo');
 
 
 
 // display mobile menu and close Hamburger menu 
 
-const mobileMenu = () => {
-    menu.classList.toggle('is-active');
+const mobileMenu = () => {//arrow funktion 
+    menu.classList.toggle('is-active');//toggle active css
     menuLinks.classList.toggle('active');
 };
 
@@ -46,16 +47,16 @@ const highlightMenu = () => {
 
     // adds higlight class to menu items
 
-    if (window.innerWidth > 960 && scrollPos < 600) {
+    if (window.innerWidth > 960 && scrollPos < 1350) {
         dragonsmenu.classList.add('highlight');
         castmenu.classList.remove('highlight');
         return;
-    } else if (window.innerWidth > 960 && scrollPos < 1400) {
+    } else if (window.innerWidth > 960 && scrollPos < 1700) {
         castmenu.classList.add('highlight');
         dragonsmenu.classList.remove('highlight');
         housesmenu.classList.remove('highlight');
         return;
-    } else if (window.innerWidth > 960 && scrollPos < 2345) {
+    } else if (window.innerWidth > 960 && scrollPos < 2400) {
         housesmenu.classList.add('highlight');
         castmenu.classList.remove('highlight');
         return;
@@ -68,9 +69,6 @@ const highlightMenu = () => {
 
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
-
-
-
 
 
 
@@ -89,7 +87,6 @@ btn.addEventListener('click', function(){
         hexhouses += hex[getRandomNumber()];
     } 
     houses.textContent = hexhouses;
-    
 })
 
 function getRandomNumber(){

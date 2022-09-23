@@ -15,7 +15,7 @@ function checker(){
 
 //deklarera variabler
 //navbar 
-const menu = document.querySelector('#mobile-menu');//target hambugar
+const  menu= document.querySelector('#mobile-menu');//target hambugar
 
 const menuLinks = document.querySelector('.navbar_menu');// target ul class
 const navlogo = document.querySelector('.navbar_logo');

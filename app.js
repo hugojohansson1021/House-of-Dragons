@@ -56,7 +56,7 @@ const highlightMenu = () => {
         dragonsmenu.classList.remove('highlight');
         housesmenu.classList.remove('highlight');
         return;
-    } else if (window.innerWidth > 960 && scrollPos < 2400) {
+    } else if (window.innerWidth > 960 && scrollPos < 2600) {
         housesmenu.classList.add('highlight');
         castmenu.classList.remove('highlight');
         return;

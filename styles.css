@@ -201,7 +201,7 @@
 /*hero section*/
 
 .hero{
-    background-image: url("../pictures/best.jpeg" );
+    background-image: url("./pictures/best.jpeg" );
     /*background: linear-gradient(to right, #161616, #000);*/
     padding: 150px ;
    
@@ -367,7 +367,7 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: url("../pictures/all hotd dragons.png");
+    background-image: url("./pictures/all hotd dragons.png");
     /*background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);*/
 }
 
@@ -381,7 +381,7 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: url("../pictures/houses_sigl.png");
+    background-image: url("./pictures/houses_sigl.png");
 }
 
 .main_img_card_signup{
@@ -393,7 +393,7 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: url("../pictures/signup_picture.png");
+    background-image: url("./pictures/signup_picture.png");
 }
 
 
@@ -513,22 +513,22 @@
 /* pictures of 4 cast memmber*/
 
 .cast_card:nth-child(2){
-    background-image: url("/pictures/alicent hightower.png");
+    background-image: url("./pictures/alicent hightower.png");
     background-size: contain;
 }
 
 .cast_card:nth-child(1){
-    background-image: url("../pictures/viserys targaryen.png");
+    background-image: url("./pictures/viserys targaryen.png");
     background-size: contain;
 }
 
 .cast_card:nth-child(3){
-    background-image: url("../pictures/rhaenyra targaryen.png");
+    background-image: url("./pictures/rhaenyra targaryen.png");
     background-size: contain;
 }
 
 .cast_card:nth-child(4){
-    background-image: url("../pictures/damon targaryen.png");
+    background-image: url("./pictures/damon targaryen.png");
     background-size: contain;
 }
 

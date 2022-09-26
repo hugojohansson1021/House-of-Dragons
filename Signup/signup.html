@@ -26,7 +26,7 @@
 
         <div>
         <label for="text_box" > Username </label>
-        <input type="text" id="text_box1" placeholder="Username"> 
+        <input type="text" id="text_box1" placeholder="Username" required> 
 
         <input type="button" id="btn1" value="submit">
         </div>
@@ -34,7 +34,7 @@
 
         <div>
         <label for="text_box_password" > Password </label>
-        <input type="text" id="text_box2" placeholder="Password"> 
+        <input type="password" id="text_box2" placeholder="Password"> 
 
         <input type="button" id="btn2" value="submit">
         </div>
@@ -53,16 +53,15 @@
                 <input type="button" id="btn4" value="submit">
         </div>  
 
+        <button type="reset">Reset</button>
+        
+
         <div> Make sure your info is correct down bellow:</div>
 
 
-        
-        <p class="output" id="output1"></p> 
-        <p class="output" id="output2"></p>
-        <p class="output" id="output3"></p> 
-        <p class="output" id="output4"></p>
+        <p class="output" id="output1"></p><p class="output" id="output2"></p><p class="output" id="output3"></p><p class="output" id="output4"></p>
 
-        <input type="button"
+        <input type="submit"
         value="continue"
         onclick= "myfun()" class="here">
 

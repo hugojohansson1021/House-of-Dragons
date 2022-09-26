@@ -513,7 +513,7 @@
 /* pictures of 4 cast memmber*/
 
 .cast_card:nth-child(2){
-    background-image: url("../pictures/alicent hightower.png");
+    background-image: url("/pictures/alicent hightower.png");
     background-size: contain;
 }
 

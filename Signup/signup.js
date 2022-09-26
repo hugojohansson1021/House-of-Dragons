@@ -25,3 +25,14 @@ function fun2(){
 }
 
 btn2.addEventListener('click', fun2)
+
+
+const txt3 = document.getElementById('text_box3');
+const btn3 = document.getElementById('btn3');
+const out3 = document.getElementById('output3');
+
+function fun3(){
+	out3.innerHTML = txt3.value;
+}
+
+btn3.addEventListener('click', fun3)

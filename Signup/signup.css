@@ -14,3 +14,33 @@ body {
 	margin: 0;
 }
 
+
+
+.forum_signup{
+    margin: 10px ;
+    height: 425px ;
+    width: 300px ;
+    border-radius : 4px ;
+    display: flex ;
+    flex-direction : column ;
+    justify-content : center ;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    transition: 0.3s ease-in;
+    object-fit: cover;
+}
+
+
+.p{
+    margin: 10px ;
+    height: 425px ;
+    width: 300px ;
+    border-radius : 4px ;
+    display: flex ;
+    flex-direction : column ;
+    justify-content : center ;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    transition: 0.3s ease-in;
+    object-fit: cover;
+}

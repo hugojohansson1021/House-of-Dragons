@@ -7,44 +7,44 @@
     <title>Signup</title>
     <link rel="stylesheet" href="signup.css">
 </head>
+
+
 <body>
 
-    <div class="container">
-        <div class="header">
-            <h2>Create Account</h2>
-        </div>
-        <form id="form" class="form">
-            <div class="form-control">
-                <label for="username">Username</label>
-                <input type="text" placeholder="florinpop17" id="username" />
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
-                <label for="username">Email</label>
-                <input type="email" placeholder="a@florin-pop.com" id="email" />
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
-                <label for="username">Password</label>
-                <input type="password" placeholder="Password" id="password"/>
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
-                <label for="username">Password check</label>
-                <input type="password" placeholder="Password two" id="password2"/>
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
-            </div>
-            <button onclick= "checker()" >Submit</button>
-        </form>
-    </div>
+    <header>
+    <h1>Sign Up </h1>
+    <h2></h2>
+    </header>
+    
+
+    
+    
+
+    <article class = "forum_signup">
+        <h2>TextBox</h2>
+        <label for="text_box" > Username </label>
+        <input type="text" id="text_box1" placeholder="Username"> 
+
+        <input type="button" id="btn1" value="ClickMe">
+
+
+
+        <label for="text_box_password" > Password </label>
+        <input type="text" id="text_box2" placeholder="Password"> 
+
+        <input type="button" id="btn2" value="submit">
+
+
+
+
+        
+        <p class="output" id="output1"></p>
+        <p class="output" id="output2"></p>
+
+
+    </article>
+
+   
     
     
     <script src="signup.js"></script>

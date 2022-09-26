@@ -43,4 +43,16 @@ const out4 = document.getElementById('output4');
 function fun4(){
 	out4.innerHTML = txt4.value;
 };
-btn4.addEventListener('click', fun4)
+btn4.addEventListener('click', fun4);
+
+
+
+function myfun(){
+	var x1=document.getElementById('text_box1').value;
+	var x2=document.getElementById('text_box2').value;
+	var x3=document.getElementById('text_box3').value;
+	var x4=document.getElementById('text_box4').value;
+	 alert("UserName : "+x1+"\n Password :"+x2+"\n Email :"+x3+"\n Age :"+x4);
+
+	
+}
